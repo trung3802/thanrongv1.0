@@ -1,3 +1,13 @@
+<?php
+    // Kết nối đến cơ sở dữ liệu
+    include "../db_conn.php";
+
+    // Lấy dữ liệu từ bảng taive kieu 3 là ios
+    $taive_query = "SELECT * FROM taive WHERE kieu = 3 AND trangthai = 1";
+    $taive_result = $conn->query($taive_query);
+?>
+
+
 <!doctype html>
 <html lang="en">
 
@@ -373,35 +383,41 @@
         </div>
         <div class="container pt-5 pb-5">
             <div class="col">
-                <h4>Phiên bản IOS</h4>
-                <table class="table table-bordered">
-                    <thead>
-                        <th>Phiên bản</th>
-                        <th>Link tải về</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Phiên bản ModKoi 230</td>
-                            <td><a class="text-dark font-weight-bold"
-                                    href="https://www.mediafire.com/file/n0ll18w28qo0jba/thanrongxyz230.ipa/file"><b>Tại
-                                        đây</b></a></td>
-                        </tr>
-						<tr>
-                            <td>Link tải trực tiếp v230</td>
-                            <td><a class="text-dark font-weight-bold"
-                                    href="https://portal.testapp.io/apps/install/KWkwRkWvzABn3"><b>Tại
-                                        đây</b></a></td>
-                        </tr>
-						<tr>
-                            <td>Link tải trực tiếp v237</td>
-                            <td><a class="text-dark font-weight-bold"
-                                    href="https://portal.testapp.io/apps/install/LqKwWAM9pLzbD"><b>Tại
-                                        đây</b></a></td>
-                        </tr>
-						
-                        
-                    </tbody>
-                </table>
+                <h4>Phiên bản Ios</h4>
+                <?php
+                    if ($taive_result->num_rows > 0) {
+                        // Tạo bảng HTML để hiển thị thông tin
+                        $content = '
+                            <table class="table table-bordered">
+                                <thead>
+                                    <th>Phiên bản</th>
+                                    <th>Link tải về</th>
+                                </thead>
+                                <tbody>';
+                
+                        // Lặp qua kết quả từ cơ sở dữ liệu và thêm dữ liệu vào bảng HTML nếu kieu = 1
+                        while ($row = $taive_result->fetch_assoc()) {
+                            $content .= '
+                                <tr>
+                                    <td><b>' . $row['phienban'] . '</b></td>
+                                    <td><a href="' . $row['link'] . '"> Download </a></td>
+                                </tr>';
+                        }
+                
+                        $content .= '
+                                </tbody>
+                            </table>';
+                    } else {
+                        // Hiển thị thông báo nếu không có phiên bản nào thỏa mãn điều kiện
+                        $content = '<p class="text-center">Không có phiên bản nào</p>';
+                    }
+                
+                    // Hiển thị nội dung
+                    echo $content;
+                
+                    // Đóng kết nối cơ sở dữ liệu
+                    $conn->close();
+                ?>
             </div>
         </div>
         <div class="border-secondary border-top"></div>
