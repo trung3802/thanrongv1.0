@@ -1,0 +1,163 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <BaseOutputPath></BaseOutputPath>
+        <ApplicationIcon>icon.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Sources\Application\Transfaction\**" />
+      <Compile Remove="Sources\Model\**" />
+      <EmbeddedResource Remove="Sources\Application\Transfaction\**" />
+      <EmbeddedResource Remove="Sources\Model\**" />
+      <None Remove="Sources\Application\Transfaction\**" />
+      <None Remove="Sources\Model\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="Sources\Model\BangXepHang\BangXepHang.cs" />
+      <Compile Include="Sources\Model\Character\Boss.cs" />
+      <Compile Include="Sources\Model\Character\Character.cs" />
+      <Compile Include="Sources\Model\Character\Disciple.cs" />
+      <Compile Include="Sources\Model\Character\Level.cs" />
+      <Compile Include="Sources\Model\Character\LimitPower.cs" />
+      <Compile Include="Sources\Model\Character\MagicTree.cs" />
+      <Compile Include="Sources\Model\Character\NClass.cs" />
+      <Compile Include="Sources\Model\Character\Pet.cs" />
+      <Compile Include="Sources\Model\Character\Player.cs" />
+      <Compile Include="Sources\Model\Clan\CharacterPea.cs" />
+      <Compile Include="Sources\Model\Clan\Clan.cs" />
+      <Compile Include="Sources\Model\Clan\ClanImage.cs" />
+      <Compile Include="Sources\Model\Clan\ClanLeader.cs" />
+      <Compile Include="Sources\Model\Clan\ClanMember.cs" />
+      <Compile Include="Sources\Model\Clan\ClanMessage.cs" />
+      <Compile Include="Sources\Model\Clan\ClanRank.cs" />
+      <Compile Include="Sources\Model\Clan\ClanBox.cs" />
+      <Compile Include="Sources\Model\Clan\ClanZone.cs" />
+      <Compile Include="Sources\Model\Clan\PhoBanClan\CDRD.cs" />
+      <Compile Include="Sources\Model\Clan\ClanBoss.cs" />
+      <Compile Include="Sources\Model\Clan\PhoBanClan\Gas.cs" />
+      <Compile Include="Sources\Model\Clan\PhoBanClan\Reddot.cs" />
+      <Compile Include="Sources\Model\Clan\PhoBanClan\Treasure.cs" />
+      <Compile Include="Sources\Model\Data\Arrow.cs" />
+      <Compile Include="Sources\Model\Data\Dart.cs" />
+      <Compile Include="Sources\Model\Data\Effect.cs" />
+      <Compile Include="Sources\Model\Data\Image.cs" />
+      <Compile Include="Sources\Model\Data\Monster.cs" />
+      <Compile Include="Sources\Model\Data\Part.cs" />
+      <Compile Include="Sources\Model\Data\Skill.cs" />
+      <Compile Include="Sources\Model\Data\SkillOption.cs" />
+      <Compile Include="Sources\Model\Effect\Buff.cs" />
+      <Compile Include="Sources\Model\Effect\Effect.cs" />
+      <Compile Include="Sources\Model\Info\Boss\InfoDelayBoss.cs" />
+      <Compile Include="Sources\Model\Info\Buff\InfoBuff.cs" />
+      <Compile Include="Sources\Model\Info\Enchant.cs" />
+      <Compile Include="Sources\Model\Info\Fusion.cs" />
+      <Compile Include="Sources\Model\Info\InfoChar.cs" />
+      <Compile Include="Sources\Model\Info\InfoDelay.cs" />
+      <Compile Include="Sources\Model\Info\InfoDiscipler\InfoDelayDisciple.cs" />
+      <Compile Include="Sources\Model\Info\InfoDiscipler\PlusPoint.cs" />
+      <Compile Include="Sources\Model\Info\InfoFriend.cs" />
+      <Compile Include="Sources\Model\Info\InfoMore.cs" />
+      <Compile Include="Sources\Model\Info\InfoNapThe.cs" />
+      <Compile Include="Sources\Model\Info\InfoOption.cs" />
+      <Compile Include="Sources\Model\Info\InfoSet.cs" />
+      <Compile Include="Sources\Model\Info\InfoSkill.cs" />
+      <Compile Include="Sources\Model\Info\LearnSkill.cs" />
+      <Compile Include="Sources\Model\Info\Radar\Card.cs" />
+      <Compile Include="Sources\Model\Info\Revenge.cs" />
+      <Compile Include="Sources\Model\Info\Skill\Amaterasu.cs" />
+      <Compile Include="Sources\Model\Info\Skill\CadicLienHoanChuong.cs" />
+      <Compile Include="Sources\Model\Info\Skill\DichChuyen.cs" />
+      <Compile Include="Sources\Model\Info\Skill\Egg.cs" />
+      <Compile Include="Sources\Model\Info\Skill\HoaBang.cs" />
+      <Compile Include="Sources\Model\Info\Skill\HoaDa.cs" />
+      <Compile Include="Sources\Model\Info\Skill\HuytSao.cs" />
+      <Compile Include="Sources\Model\Info\Skill\Laze.cs" />
+      <Compile Include="Sources\Model\Info\Skill\MaPhongBa.cs" />
+      <Compile Include="Sources\Model\Info\Skill\MeTroi.cs" />
+      <Compile Include="Sources\Model\Info\Skill\Monkey.cs" />
+      <Compile Include="Sources\Model\Info\Skill\PlayerTroi.cs" />
+      <Compile Include="Sources\Model\Info\Skill\Protect.cs" />
+      <Compile Include="Sources\Model\Info\Skill\QCKK.cs" />
+      <Compile Include="Sources\Model\Info\Skill\Socola.cs" />
+      <Compile Include="Sources\Model\Info\Skill\SuperKamejoko.cs" />
+      <Compile Include="Sources\Model\Info\Skill\TaiTaoNangLuong.cs" />
+      <Compile Include="Sources\Model\Info\Skill\ThaiDuongHanSan.cs" />
+      <Compile Include="Sources\Model\Info\Skill\ThoiMien.cs" />
+      <Compile Include="Sources\Model\Info\Skill\TuSat.cs" />
+      <Compile Include="Sources\Model\Info\Test.cs" />
+      <Compile Include="Sources\Model\Info\Trade.cs" />
+      <Compile Include="Sources\Model\Item\Item.cs" />
+      <Compile Include="Sources\Model\Item\ItemGiftcode.cs" />
+      <Compile Include="Sources\Model\Item\ItemMap.cs" />
+      <Compile Include="Sources\Model\Item\ItemShop.cs" />
+      <Compile Include="Sources\Model\Item\ItemTime.cs" />
+      <Compile Include="Sources\Model\Item\LockInventory.cs" />
+      <Compile Include="Sources\Model\Map\ActionItem.cs" />
+      <Compile Include="Sources\Model\Map\BackgroundItem.cs" />
+      <Compile Include="Sources\Model\Map\MapTranspot.cs" />
+      <Compile Include="Sources\Model\Map\Npc.cs" />
+      <Compile Include="Sources\Model\Map\TileMap.cs" />
+      <Compile Include="Sources\Model\Map\WayPoint.cs" />
+      <Compile Include="Sources\Model\Map\Zone.cs" />
+      <Compile Include="Sources\Model\ModelBase\CharacterBase.cs" />
+      <Compile Include="Sources\Model\ModelBase\ItemBase.cs" />
+      <Compile Include="Sources\Model\ModelBase\MonsterBase.cs" />
+      <Compile Include="Sources\Model\ModelBase\OptionBase.cs" />
+      <Compile Include="Sources\Model\ModelBase\Position.cs" />
+      <Compile Include="Sources\Model\ModelBase\TaskBase.cs" />
+      <Compile Include="Sources\Model\Monster\MonsterMap.cs" />
+      <Compile Include="Sources\Model\Monster\MonsterPet.cs" />
+      <Compile Include="Sources\Model\Option\OptionItem.cs" />
+      <Compile Include="Sources\Model\Option\OptionRadar.cs" />
+      <Compile Include="Sources\Model\Option\OptionSkill.cs" />
+      <Compile Include="Sources\Model\SkillCharacter\SkillCharacter.cs" />
+      <Compile Include="Sources\Model\SkillCharacter\SkillMonkey.cs" />
+      <Compile Include="Sources\Model\SkillCharacter\SpecialSkill.cs" />
+      <Compile Include="Sources\Model\Task\Task.cs" />
+      <Compile Include="Sources\Model\Task\TaskInfo.cs" />
+      <Compile Include="Sources\Model\Task\TaskOrder.cs" />
+      <Compile Include="Sources\Model\Template\ABossTemplate.cs" />
+      <Compile Include="Sources\Model\Template\BackgroundItemTemplate.cs" />
+      <Compile Include="Sources\Model\Template\BossTemplate.cs" />
+      <Compile Include="Sources\Model\Template\DiscipleTemplate.cs" />
+      <Compile Include="Sources\Model\Template\EffectTemplate.cs" />
+      <Compile Include="Sources\Model\Template\GachTheResponse.cs" />
+      <Compile Include="Sources\Model\Template\GameInfoTemplate.cs" />
+      <Compile Include="Sources\Model\Template\InputBox.cs" />
+      <Compile Include="Sources\Model\Template\ItemOptionTemplate.cs" />
+      <Compile Include="Sources\Model\Template\ItemTemplate.cs" />
+      <Compile Include="Sources\Model\Template\MonsterTemplate.cs" />
+      <Compile Include="Sources\Model\Template\NpcTemplate.cs" />
+      <Compile Include="Sources\Model\Template\RadarTemplate.cs" />
+      <Compile Include="Sources\Model\Template\ShopTemplate.cs" />
+      <Compile Include="Sources\Model\Template\SkillDataTemplate.cs" />
+      <Compile Include="Sources\Model\Template\SkillTemplate.cs" />
+      <Compile Include="Sources\Model\Template\SpecialSkillTemplate.cs" />
+      <Compile Include="Sources\Model\Template\TaskTemplate.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="RES" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Linq.Extras" Version="5.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.2-mauipre.1.22054.8" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.2-mauipre.1.22054.8" />
+      <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.2-mauipre.1.22054.8" />
+      <PackageReference Include="MySql.Data" Version="8.0.28" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="Serilog" Version="2.11.0-dev-01380" />
+      <PackageReference Include="Serilog.Enrichers.Thread" Version="3.2.0-dev-00752" />
+      <PackageReference Include="Serilog.Settings.Configuration" Version="3.3.1-dev-00296" />
+      <PackageReference Include="Serilog.Sinks.Console" Version="4.0.2-dev-00890" />
+      <PackageReference Include="Serilog.Sinks.File" Version="5.0.1-dev-00947" />
+      <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />
+      <PackageReference Include="System.Resources.Extensions" Version="7.0.0" />
+    </ItemGroup>
+
+</Project>

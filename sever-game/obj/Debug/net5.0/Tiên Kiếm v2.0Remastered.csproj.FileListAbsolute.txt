@@ -1,0 +1,183 @@
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.exe
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.deps.json
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.runtimeconfig.json
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.runtimeconfig.dev.json
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.pdb
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Google.Protobuf.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Linq.Extras.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\MySql.Data.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\ZstdNet.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Serilog.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Serilog.Enrichers.Thread.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\Serilog.Sinks.File.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\System.Diagnostics.PerformanceCounter.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\System.Resources.Extensions.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\System.Text.Json.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Ngọc Rồng\thanrong\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Ngọc Rồng\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.csproj.AssemblyReference.cache
+D:\Ngọc Rồng\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ngọc Rồng\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.AssemblyInfoInputs.cache
+D:\Ngọc Rồng\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.AssemblyInfo.cs
+D:\Ngọc Rồng\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.csproj.CoreCompileInputs.cache
+D:\Ngọc Rồng\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.csproj.CopyComplete
+D:\Ngọc Rồng\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.dll
+D:\Ngọc Rồng\thanrong\obj\Debug\net5.0\refint\Tiên Kiếm v2.0Remastered.dll
+D:\Ngọc Rồng\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.pdb
+D:\Ngọc Rồng\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.genruntimeconfig.cache
+D:\Ngọc Rồng\thanrong\obj\Debug\net5.0\ref\Tiên Kiếm v2.0Remastered.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.exe
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.deps.json
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.runtimeconfig.json
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.pdb
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Linq.Extras.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\ZstdNet.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Serilog.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Serilog.Enrichers.Thread.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\System.Resources.Extensions.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\System.Security.Permissions.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\System.Windows.Extensions.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.csproj.CopyComplete
+C:\Users\Administrator\Desktop\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\obj\Debug\net5.0\refint\Tiên Kiếm v2.0Remastered.dll
+C:\Users\Administrator\Desktop\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.pdb
+C:\Users\Administrator\Desktop\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\thanrong\thanrong\obj\Debug\net5.0\ref\Tiên Kiếm v2.0Remastered.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.exe
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.deps.json
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.runtimeconfig.json
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Tiên Kiếm v2.0Remastered.pdb
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Linq.Extras.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\ZstdNet.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Serilog.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Serilog.Enrichers.Thread.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\System.Resources.Extensions.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\System.Security.Permissions.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\System.Windows.Extensions.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\obj\Debug\net5.0\refint\Tiên Kiếm v2.0Remastered.dll
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.pdb
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\obj\Debug\net5.0\Tiên Kiếm v2.0Remastered.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Thanrong.xyz\thanrong\thanrong\obj\Debug\net5.0\ref\Tiên Kiếm v2.0Remastered.dll
