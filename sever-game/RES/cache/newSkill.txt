@@ -1,0 +1,3 @@
+typeframe 1 la super kame
+typeframe 2 la sieu destroyerskill
+typeframe 3 la ??
