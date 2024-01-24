@@ -393,6 +393,22 @@ mysqli_close($connection);
                                 </a>
                             </li>
                             <li class="sidebar-item">
+                                <a class="sidebar-link" href="adtaive" aria-expanded="false">
+                                    <span>
+                                        <i class="fas fa-pencil-alt"></i>
+                                    </span>
+                                    <span class="hide-menu">Quản lý tải về</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="adtuyetchieu" aria-expanded="false">
+                                    <span>
+                                        <i class="fas fa-pencil-alt"></i>
+                                    </span>
+                                    <span class="hide-menu">Sửa tuyệt chiêu</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
                                 <a class="sidebar-link" href="adcard" aria-expanded="false">
                                     <span>
                                         <i class="fas fa-pencil-alt"></i>
