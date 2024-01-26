@@ -5,6 +5,9 @@
     // Lấy dữ liệu từ bảng taive kieu 1 là android
     $taive_query = "SELECT * FROM taive WHERE kieu = 1 AND trangthai = 1";
     $taive_result = $conn->query($taive_query);
+
+
+    session_start();
 ?>
 
 
@@ -373,12 +376,37 @@
             <div class="text-center">
                 <div class="row">
                     <div class="col pr-0">
-                        <a href="../dangnhap" class="btn p-1 btn-header">Đăng nhập</a>
+                        <a href="../index" class="btn p-1 btn-header-active">Trang chủ</a>
                     </div>
-                    <div class="col pr-0">
-                        <a href="../dangky" class="btn p-1 btn-header-active">Đăng ký</a>
+                    <div class="col">
+                        <a href="../diendan" class="btn p-1 btn-header">Diễn Đàn</a>
                     </div>
+                    <?php
+                if (!isset($_SESSION['id']) || !isset($_SESSION['username'])) {
+                    echo '
+                    <div class="col">
+                        <a href="../dangky" class="btn p-1 btn-header">Đăng Ký</a>
+                    </div>
+                    <div class="col">
+                        <a href="../dangnhap" class="btn p-1 btn-header">Đăng Nhập</a>
+                    </div>
+                    ';
+                }
+                ?>
+                    <?php
+                if (isset($_SESSION['id']) || isset($_SESSION['username'])) {
+                    echo '
+                    <div class="col">
+                        <a href="../home" class="btn p-1 btn-header">Người Dùng</a>
+                    </div>
+                    <div class="col">
+                        <a href="logout" class="btn p-1 btn-header">Đăng Xuất</a>
+                    </div>
+                    ';
+                }
+                ?>
                 </div>
+
             </div>
         </div>
         <div class="container pt-5 pb-5">
