@@ -92,7 +92,7 @@ if (!isset($_SESSION['id']) || !isset($_SESSION['username'])) {
                                 setTimeout("farbschrift2()", 70); // Đặt khoảng thời gian đổi màu chậm hơn
                             }
 
-                            text2 = "THANRONG2017";
+                            text2 = "THANRONG";
                             string2array2(text2);
                             divserzeugen2();
                             </script>
@@ -312,7 +312,7 @@ if (!isset($_SESSION['id']) || !isset($_SESSION['username'])) {
                     <div class="text-center">
                         <div style="font-size: 13px" class="text-dark">
                             
-                            <small>2023©THANRONG2017</small>
+                            <small>2023©THANRONG</small>
                         </div>
                     </div>
                 </div>

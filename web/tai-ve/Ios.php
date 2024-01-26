@@ -1,13 +1,12 @@
 <?php
+    session_start();
+?><?php
     // Kết nối đến cơ sở dữ liệu
     include "../db_conn.php";
 
     // Lấy dữ liệu từ bảng taive kieu 3 là ios
     $taive_query = "SELECT * FROM taive WHERE kieu = 3 AND trangthai = 1";
     $taive_result = $conn->query($taive_query);
-
-
-    session_start();
 ?>
 
 
@@ -15,6 +14,9 @@
 <html lang="en">
 
 <head>
+<meta name="google-adsense-account" content="ca-pub-1313339641046545">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1313339641046545"
+     crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="//theme.hstatic.net/1000271846/1001087843/14/favicon.png?v=86" type="image/png">
 
     <meta charset="utf-8">
@@ -328,7 +330,7 @@
                                 setTimeout("farbschrift2()", 40); // Đặt khoảng thời gian đổi màu chậm hơn
                             }
 
-                            text2 = "THANRONG.XYZ";
+                            text2 = "THANRONG";
                             string2array2(text2);
                             divserzeugen2();
                             </script>
@@ -350,7 +352,7 @@
                             <small class="text-dark">0.0.1</small>
                         </div>
                         <div style="display: inline-block;">
-                            <a href="../dangnhap"><img class="icon-download" src="../assets/images/napngoc.png"></a>
+                            <a href="../home"><img class="icon-download" src="../assets/images/napngoc.png"></a>
                             </br>
                             <small class="text-dark">0.0.1</small>
                         </div>
@@ -366,7 +368,7 @@
             top: 0;
             left: 0;
             z-index: -1; /* Place the video behind other content */">
-        <source src="assets/images/logo.mp4" type="video/mp4">
+        <source src="../assets/images/logo.mp4" type="video/mp4">
     </video>
                     </div>
                 </div>
@@ -375,43 +377,43 @@
         <div class="container color-main2 pb-2" style="background-color: #BFEFFF">
             <div class="text-center">
                 <div class="row">
-                   <div class="col pr-0">
+                    <div class="col pr-0">
                         <a href="../index" class="btn p-1 btn-header-active">Trang chủ</a>
                     </div>
                     <div class="col">
                         <a href="../diendan" class="btn p-1 btn-header">Diễn Đàn</a>
                     </div>
+					<?php
+                    if (!isset($_SESSION['id']) || !isset($_SESSION['username'])) {
+                        echo '
+                        <div class="col">
+                            <a href="../dangky" class="btn p-1 btn-header">Đăng Ký</a>
+                        </div>
+                        <div class="col">
+                            <a href="../dangnhap" class="btn p-1 btn-header">Đăng Nhập</a>
+                        </div>
+                        ';
+                    }
+                    ?>
                     <?php
-                if (!isset($_SESSION['id']) || !isset($_SESSION['username'])) {
-                    echo '
-                    <div class="col">
-                        <a href="../dangky" class="btn p-1 btn-header">Đăng Ký</a>
-                    </div>
-                    <div class="col">
-                        <a href="../dangnhap" class="btn p-1 btn-header">Đăng Nhập</a>
-                    </div>
-                    ';
-                }
-                ?>
-                    <?php
-                if (isset($_SESSION['id']) || isset($_SESSION['username'])) {
-                    echo '
-                    <div class="col">
-                        <a href="home" class="btn p-1 btn-header">Người Dùng</a>
-                    </div>
-                    <div class="col">
-                        <a href="logout" class="btn p-1 btn-header">Đăng Xuất</a>
-                    </div>
-                    ';
-                }
-                ?>
+                    if (isset($_SESSION['id']) || isset($_SESSION['username'])) {
+                        echo '
+                        <div class="col">
+                            <a href="../home" class="btn p-1 btn-header">Người Dùng</a>
+                        </div>
+                        <div class="col">
+                            <a href="../logout" class="btn p-1 btn-header">Đăng Xuất</a>
+                        </div>
+                        ';
+                    }
+                    ?>
+                    
                 </div>
-
             </div>
         </div>
         <div class="container pt-5 pb-5">
             <div class="col">
-                <h4>Phiên bản Ios</h4>
+                <h4>Phiên bản IOS</h4>
                 <?php
                     if ($taive_result->num_rows > 0) {
                         // Tạo bảng HTML để hiển thị thông tin
@@ -454,7 +456,7 @@
                 <div class="col">
                     <div class="text-center">
                         <div style="font-size: 13px" class="text-dark">
-                            <small>2023©THANRONG.XYZ</small>
+                            <small>2023©THANRONG</small>
                         </div>
                     </div>
                 </div>

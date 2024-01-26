@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="google-adsense-account" content="ca-pub-1313339641046545">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1313339641046545"
+     crossorigin="anonymous"></script>
 	<title>ĐUA TOP NẠP</title>
 	<!-- Load Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
