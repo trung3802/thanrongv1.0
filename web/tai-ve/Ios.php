@@ -397,7 +397,7 @@
                 if (isset($_SESSION['id']) || isset($_SESSION['username'])) {
                     echo '
                     <div class="col">
-                        <a href="home" class="btn p-1 btn-header">Người Dùng</a>
+                        <a href="../home" class="btn p-1 btn-header">Người Dùng</a>
                     </div>
                     <div class="col">
                         <a href="logout" class="btn p-1 btn-header">Đăng Xuất</a>
