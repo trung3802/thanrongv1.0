@@ -26,6 +26,9 @@ mysqli_close($connection);
 ?>
 
 <head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1313339641046545"
+     crossorigin="anonymous"></script>
+<meta name="google-adsense-account" content="ca-pub-1313339641046545">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Người Dùng</title>
@@ -159,7 +162,7 @@ mysqli_close($connection);
                                 setTimeout("farbschrift2()", 40); // Đặt khoảng thời gian đổi màu chậm hơn
                             }
 
-                            text2 = "THANRONG2017";
+                            text2 = "THANRONG";
                             string2array2(text2);
                             divserzeugen2();
                             </script>

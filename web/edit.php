@@ -76,25 +76,27 @@
                 <h5 class="card-title fw-semibold mb-4">Chỉnh sửa ID ' . $id .' </h5>
                 <div class="card">
                     <div class="card-body">
-                        <form method="POST">
-                            <div class="mb-3">
+                    <form method="POST">
+                        <div class="mb-3">
                             <input type="hidden" name="character_id" value="' . $id .'">
                             <label for="column">Chọn cột: </label>
-                            <select id="column" name="column" class="form-select">
+                            <select id="column" name="column" class="form-select" onchange="updateInputType()">
                                 <option value="name">Name</option>
                                 <option value="itemBody">ItemBody</option>
                                 <option value="itemBag">ItemBag</option>
                                 <option value="itemBox">ItemBox</option>
                                 <option value="infoChar">InfoChar</option>
                             </select>
-                            </div>
-                            <div class="mb-3">
-                                <label for="newValue" class="form-label">Giá trị mới</label>
-                                <input type="text" name="newValue" class="form-control" id="newValue">
-                            </div>
-                            <input type="submit" name="submit" class="btn btn-primary" value="Cập nhật">
-                            <a href="index.php" class="btn btn-primary">Quay lại</a>
-                        </form>
+                        </div>
+                        <div class="mb-3">
+                            <label for="newValue" class="form-label">Giá trị mới</label>
+                            <textarea name="newValue" class="form-control" id="newValue" rows="4">' . $name . '</textarea>
+                        </div>
+                        
+                        <!-- Add similar textarea fields for other values -->
+                        <input type="submit" name="submit" class="btn btn-primary" value="Cập nhật">
+                        <a href="index.php" class="btn btn-primary">Quay lại</a>
+                    </form>
                         <div class="mt-4">';
                         $content .=  "<p> $message </p>";
                         $content .=  '
@@ -109,3 +111,37 @@
     include "layout.php";
     
 ?>
+
+
+<script>
+    // Auto-refresh the page after a specified time (in milliseconds)
+
+    function updateInputType() {
+        var column = document.getElementById("column").value;
+        var textareaValue = document.getElementById("newValue");
+        textareaValue.rows = 4; // Set rows based on your preference
+
+        // Set initial values based on the selected column
+        <?php
+            echo 'var nameValue = ' . json_encode($name) . ";\n";
+            echo 'var itemBodyValue = ' . json_encode($itemBody) . ";\n";
+            echo 'var itemBagValue = ' . json_encode($itemBag) . ";\n";
+            echo 'var itemBoxValue = ' . json_encode($itemBox) . ";\n";
+            echo 'var infoCharValue = ' . json_encode($infoChar) . ";\n";
+        ?>
+
+        if (column === "name") {
+            textareaValue.value = nameValue;
+        } else if (column === "itemBody") {
+            textareaValue.value = itemBodyValue;
+        } else if (column === "itemBag") {
+            textareaValue.value = itemBagValue;
+        } else if (column === "itemBox") {
+            textareaValue.value = itemBoxValue;
+        } else if (column === "infoChar") {
+            textareaValue.value = infoCharValue;
+        }
+        
+    }
+    
+</script>
