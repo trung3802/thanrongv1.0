@@ -27,9 +27,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['username'])) {
                             ' . ($success ? '<p class="success">' . $success . '</p>' : '') . '
                             <table class="table table-borderless">
                                 <tbody>
-                                    <tr>
-                                        <th colspan="2"><h3>Nạp thẻ cào</h3></th>
-                                    </tr>
+                                   
                                     <tr>
                                         <td style="width: 150px">Loại thẻ </td>
                                         <td>
@@ -102,7 +100,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['username'])) {
                                     </tr>
                                     <tr>
                                         <td></td>
-                                        <td><input type="submit" class="btn btn-primary" value="Nạp thẻ"></td>
+                                        <td><input type="submit" class="btn btn-primary" value="Donate"></td>
                                     </tr>
                                 </tbody>
                             </table>

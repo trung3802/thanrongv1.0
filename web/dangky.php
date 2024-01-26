@@ -2,23 +2,15 @@
 <html lang="en">
 
 <head>
+<meta name="google-adsense-account" content="ca-pub-1313339641046545">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1313339641046545"
+     crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="//theme.hstatic.net/1000271846/1001087843/14/favicon.png?v=86" type="image/png">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Trang Chủ Chính Thức</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="description"
-        content="Website chính thức của Chú Bé Rồng Online – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!" />
-    <meta name="keywords"
-        content="Chú Bé Rồng Online,ngoc rong mobile, game ngoc rong, game 7 vien ngoc rong, game bay vien ngoc rong" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title"
-        content="Website chính thức của Chú Bé Rồng Online – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!" />
-    <meta name="twitter:description"
-        content="Website chính thức của Chú Bé Rồng Online – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!"
-        content="assets/images/nrogreen.png" content="200" content="200" />
+    
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -319,7 +311,7 @@
                 setTimeout("farbschrift2()", 70); // Đặt khoảng thời gian đổi màu chậm hơn
             }
 
-            text2 = "THANRONG2017";
+            text2 = "THANRONG";
             string2array2(text2);
             divserzeugen2();
         </script>
@@ -340,7 +332,7 @@
                             <small class="text-dark">0.0.1</small>
                         </div>
                         <div style="display: inline-block;">
-                            <a href="dangnhap"><img class="icon-download"
+                            <a href="home"><img class="icon-download"
                                     src="assets/images/napngoc.png"></a> </br>
                             <small class="text-dark">0.0.1</small>
                         </div>
@@ -479,7 +471,7 @@
                 <div class="col">
                     <div class="text-center">
                         <div style="font-size: 13px" class="text-dark">
-                            <small>2023©THANRONG2017</small>
+                            <small>2023©THANRONG</small>
                         </div>
                     </div>
                 </div>

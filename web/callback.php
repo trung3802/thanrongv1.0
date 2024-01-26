@@ -27,7 +27,7 @@ if (isset($_GET['request_id']) && isset($_GET['status'])) {
 
         // // Kiểm tra và xử lý
         if ($status == 1 && $tongnap_user == 0) {
-            $tien *= 3; // Nhân 3 lần đầu
+            $tien *= 2; // Nhân 3 lần đầu
          }
 
 if($status == 1) {
