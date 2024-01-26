@@ -1,4 +1,7 @@
 <head>
+<meta name="google-adsense-account" content="ca-pub-1313339641046545">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1313339641046545"
+     crossorigin="anonymous"></script>
     <title>MOMO</title>
     <style>
         img {

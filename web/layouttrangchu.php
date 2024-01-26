@@ -5,6 +5,11 @@
 <html lang="en">
 
 <head>
+
+<meta name="google-adsense-account" content="ca-pub-1313339641046545">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1313339641046545"
+     crossorigin="anonymous"></script>
+
 <link rel="shortcut icon" href="//theme.hstatic.net/1000271846/1001087843/14/favicon.png?v=86" type="image/png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -451,7 +456,7 @@
                     }
                     setInterval("farbtauscher()", 60000);
 
-                    text = "THANRONG2017 - THÔNG BÁO";
+                    text = "THANRONG - THÔNG BÁO";
                     string2array(text);
                     divserzeugen();
                     </script>
@@ -530,7 +535,7 @@
                                 setTimeout("farbschrift2()", 40); // Đặt khoảng thời gian đổi màu chậm hơn
                             }
 
-                            text2 = "THANRONG2017";
+                            text2 = "THANRONG";
                             string2array2(text2);
                             divserzeugen2();
                             </script>
@@ -560,7 +565,7 @@
                             <small class="text-dark">0.0.1</small>
                         </div>
                         <div style="display: inline-block;">
-                            <a href="dangnhap"><img class="icon-download" src="assets/images/napngoc.png"></a> </br>
+                            <a href="home"><img class="icon-download" src="assets/images/napngoc.png"></a> </br>
                             <small class="text-dark">0.0.1</small>
                         </div>
                         <div>
@@ -723,7 +728,7 @@
             <div class="col">
                 <div class="text-center">
                     <div style="font-size: 13px" class="text-dark">
-                        <small>2024©THANRONG2017</small>
+                        <small>2024©THANRONG</small>
                     </div>
                 </div>
             </div>

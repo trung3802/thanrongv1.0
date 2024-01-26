@@ -17,8 +17,8 @@ if (mysqli_num_rows($result) > 0) {
   $vnd = $row['vnd'];
   $tongnap = $row['tongnap'];
   if ($tongnap == 0) {
-    $new_balance = $vnd + $amount *3;
-    $new_balance1 = $tongnap + $amount *3;
+    $new_balance = $vnd + $amount *2;
+    $new_balance1 = $tongnap + $amount *2;
   }else{
     $new_balance = $vnd + $amount;
     $new_balance1 = $tongnap + $amount;
